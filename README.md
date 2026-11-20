@@ -48,7 +48,7 @@ smart-campus-estf/
 
 ### 1. Cloner le dépôt
 ```bash
-git clone [https://github.com/youssefhaloui-1/smart-campus-estf.git](https://github.com/youssefhaloui-1/smart-campus-estf.git)
+git clone https://github.com/youssefhaloui-1/smart-campus-estf.git
 cd smart-campus-estf
 ```
 
