@@ -24,8 +24,7 @@ class Ressource extends Model
     public function equipements()
     {
         return $this->belongsToMany(Equipement::class, 'ressource_equipement')
-            ->withPivot('quantite')
-            ->withTimestamps();
+            ->withPivot('quantite');
     }
 
     public function reservations()

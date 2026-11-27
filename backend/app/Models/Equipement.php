@@ -13,7 +13,6 @@ class Equipement extends Model
     public function ressources()
     {
         return $this->belongsToMany(Ressource::class, 'ressource_equipement')
-            ->withPivot('quantite')
-            ->withTimestamps();
+            ->withPivot('quantite');
     }
 }
